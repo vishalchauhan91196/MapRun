@@ -1,0 +1,18 @@
+{
+    "name": "maprun",
+    "version": "1.0.0",
+    "description": "Workout Mapping Application",
+    "default": "index.html",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html --dist-dir ./dist"
+    },
+    "author": "Vishal Chauhan",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel": "^2.0.0-beta.1"
+    },
+    "dependencies": {
+        "core-js": "^3.8.1"
+    }
+}
